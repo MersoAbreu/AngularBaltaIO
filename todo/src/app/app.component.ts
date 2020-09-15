@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 import { Todo } from 'src/models/todo.model';
 
 @Component({
@@ -9,7 +10,7 @@ import { Todo } from 'src/models/todo.model';
 export class AppComponent {
   public todos: Todo[] = [];
   public title:string ='Minhas tarefas';
-
+  public form:FormGroup ;
 
   constructor(){
      this.todos.push(new Todo(1, "Passear com o Fly",false));
@@ -24,11 +25,11 @@ export class AppComponent {
       this.todos.splice(index, 1);
     }
   }
-  markAsDone(){
-
+  markAsDone(todo:Todo){
+    todo.done=true;
   }
-  markAsUndone(){
-
+  markAsUndone(todo:Todo){
+    todo.done=false;
   }
 
 }
