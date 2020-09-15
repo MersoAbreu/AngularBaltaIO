@@ -8,7 +8,7 @@ import { Todo } from 'src/models/todo.model';
 })
 export class AppComponent {
   public todos: Todo[] = [];
-  public title:String ='Minhas tarefas';
+  public title:string ='Minhas tarefas';
 
 
   constructor(){
