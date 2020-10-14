@@ -26,6 +26,6 @@ Curso introdução ao Angular JS com Balta IO, tutorial do Youtube.
 <h2>Clone o projeto, e para ver ele rodando em sua maquina local siga os seguintes passos:</h2>
 <p>Instale o nodejs, basta clicar no link <a href="https://nodejs.org/en/">Node JS</a></p>
 <br>
-<p>Instale o angula CLI, para informações segue o link: <a href="https://angular.io/">Angular</a></p>
+<p>Instale o angular CLI, para informações segue o link: <a href="https://angular.io/">Angular</a></p>
 <br>
 <p>E depois de tudo instalado e funcionando navegue até a pasta de seu projeto com o prompt e digite o <strong>ng serve -o</strong> irá carregar o projeto e abri-lo no seu browser</p>
